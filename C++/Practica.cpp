@@ -16,5 +16,5 @@ int main()
     cin >> edad;
 
     cout <<nombre<<" "<<apellido<<" "<<carrera<<" "<<edad<<endl;
-    return 0;
+    //return 0;
 }
