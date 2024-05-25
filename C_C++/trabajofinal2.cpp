@@ -89,7 +89,7 @@ int main() {
         if (opcion == 6) break;
 
         string depto, nombre; double precio; int stock, cantidad;
-        cout << "Ingrese el departamento: "; getline(cin, depto);
+        cout << "Ingrese el departamento (Electrodomésticos, Ropa, Deportes, Muebles): "; getline(cin, depto);
 
         bool departamentoEncontrado = false;
         for (auto& d : departamentos) {
