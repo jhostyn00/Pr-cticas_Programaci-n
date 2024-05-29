@@ -75,15 +75,27 @@ int main() {
 
     departamentos[0].agregarProducto("Refrigeradora", 1500, 10);
     departamentos[0].agregarProducto("Lavadora", 1200, 8);
+    departamentos[0].agregarProducto("Licuadora", 250, 20);
+    departamentos[0].agregarProducto("Cocina", 3100, 12);
+    departamentos[0].agregarProducto("Ollas", 120, 40);
     departamentos[1].agregarProducto("Camiseta", 50, 100);
     departamentos[1].agregarProducto("Jeans", 120, 60);
+    departamentos[1].agregarProducto("Polos", 70, 100);
+    departamentos[1].agregarProducto("Shorts", 90, 50);
+    departamentos[1].agregarProducto("Gorros", 30, 120);
     departamentos[2].agregarProducto("Bicicleta", 800, 15);
     departamentos[2].agregarProducto("Balón de Fútbol", 30, 50);
+    departamentos[2].agregarProducto("Raquetas de tenis", 200, 8);
+    departamentos[2].agregarProducto("Bate de beisbol", 300, 16);
+    departamentos[2].agregarProducto("Balón de Volley", 40, 30);
     departamentos[3].agregarProducto("Sofá", 2000, 5);
     departamentos[3].agregarProducto("Mesa", 850, 7);
+    departamentos[3].agregarProducto("Armario", 1200, 10);
+    departamentos[3].agregarProducto("Mesa de noche", 300, 20);
+    departamentos[3].agregarProducto("Mesa de centro", 500, 30);
 
     while (true) {
-        cout << "\n--- Sistema de Venta ---\n1. Mostrar productos\n2. Agregar producto\n3. Modificar producto\n4. Eliminar producto\n5. Realizar venta\n6. Salir\nSeleccione una opción: ";
+        cout << "\n--- Sistema de Venta ---\n1. Mostrar productos\n2. Agregar producto\n3. Modificar producto\n4. Eliminar producto\n5. Realizar venta\n6. Salir\nSeleccione una opcion: ";
         int opcion; cin >> opcion; cin.ignore();
 
         if (opcion == 6) break;
